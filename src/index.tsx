@@ -9,18 +9,13 @@ import { Join } from './routes/Join';
 
 const router= createBrowserRouter ([
   {
-    path: "/",
-    element: <SoundWave />,
+    path: "/", element: <SoundWave />,
   },
-
   {
-    path: "/discover",
-    element: <Discover />,
+    path: "/discover", element: <Discover />,
   },
-
   {
-    path: "/join",
-    element: <Join />,
+    path: "/join", element: <Join />,
   },
 
 ]);
