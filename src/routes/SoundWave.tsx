@@ -1,18 +1,26 @@
 import React from 'react'
 import Menu from '../components/menu'
-import Button  from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import FellTheMusic from '../components/FellTheMusic'
+
+import { Container } from 'react-bootstrap'
+
+
+
 
 export const SoundWave = () => {
   return (
-    <> <Menu/> <>
     
-    </><div>
+    <section>
+      <header><Menu /></header>
+      <Container>
+        <FellTheMusic />
+        
+        </Container>
 
-      <h1> funcina epppaaa</h1>
+        </section>
+    
 
-      <Button> boton de prueba</Button>
 
-    </div></>
   )
 }

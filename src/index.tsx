@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import App from './App';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { SoundWave } from './routes/SoundWave';
 import { Discover } from './routes/Discover';
 import { Join } from './routes/Join';
+import './index.css';
 
 const router= createBrowserRouter ([
   {

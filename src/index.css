@@ -1,20 +1,17 @@
 /* reset styles */
 * {font-family:poppins;
 font-size: 1.2rem;}
-a {
-  
-  text-decoration: inherit;
-  color: inherit;
+
+body{
+  background-color: #2F303A;
+}
+footer{
+  background-color: #202027;
 }
 
-
-body {
-  
-  background-color: blueviolet;
- 
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  background-color: #2F303A;
 }
