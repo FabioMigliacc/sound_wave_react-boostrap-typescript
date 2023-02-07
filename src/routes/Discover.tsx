@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from '../components/menu'
-// import Menu from '../components/menu'
+import Footer from '../components/footer'
 
 export const Discover = () => {
     return (<>
@@ -8,9 +8,12 @@ export const Discover = () => {
             <header>
                 <Menu />
             </header>
-        </><div>
+        </>
 
             <h1> dicover va</h1>
-        </div></>
+        
+        < Footer/>
+        </>
+
     )
 }

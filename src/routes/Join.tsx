@@ -1,5 +1,6 @@
 import React from 'react'
 import Menu from '../components/menu'
+import Footer from '../components/footer'
 
 export const Join = () => {
   return (<>
@@ -10,7 +11,9 @@ export const Join = () => {
     </><div>
 
         <h1> join  va</h1>
-    </div></>
+    </div>
+    <Footer />
+    </>
 )
 }
 
