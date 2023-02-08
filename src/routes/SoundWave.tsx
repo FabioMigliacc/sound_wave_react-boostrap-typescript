@@ -2,7 +2,9 @@ import React from 'react'
 import Menu from '../components/menu'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container } from 'react-bootstrap'
-import FellTheMusic from '../components/FellTheMusic'
+import FeelTheMusic from '../components/FeelTheMusic'
+import styles from '../components/FeelTheMusic.module.css'
+
 
 
 
@@ -11,14 +13,18 @@ import FellTheMusic from '../components/FellTheMusic'
 export const SoundWave = () => {
   return (
 
-
-    <section>
-
-      <Container>
-        <header><Menu /></header>
-        <FellTheMusic />
+<>
+         <Menu />
+      <Container fluid='md' className='align-xs-middle fixed-bottom'>
+        
+        <FeelTheMusic />
       </Container>
-    </section>
+      <div  className={styles.purple}></div>
+        <div  className={styles.azul1}></div>
+        <div  className={styles.azul2}></div>
+      </>
+ 
+    
 
 
 
