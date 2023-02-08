@@ -15,7 +15,7 @@ export const SoundWave = () => {
 
 <>
          <Menu />
-      <Container fluid='md' className='align-xs-middle fixed-bottom'>
+      <Container fluid='md' className='fixed-bottom'>
         
         <FeelTheMusic />
       </Container>
