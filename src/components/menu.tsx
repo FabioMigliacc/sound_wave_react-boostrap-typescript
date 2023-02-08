@@ -13,7 +13,7 @@ export default function Menu() {
                 <Navbar.Brand href="#home">
                     <img src={logo} alt=""/>
                     
-                    <Navbar.Text > <Link className="text-decoration-none m-2 text-white"  to={'/'}>Soundwave</Link> </Navbar.Text>
+                    <Navbar.Text > <Link className="text-decoration-none  text-white"  to={'/'}>Soundwave</Link> </Navbar.Text>
                 </Navbar.Brand>
 
                 

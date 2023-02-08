@@ -6,17 +6,17 @@ import facebook from '../assets/facebook.svg';
 export default function Footer() {
   return (
     <footer>
-      <Navbar >
+      <Navbar fixed="bottom" style={{ backgroundColor: '#202027' }}>
         <Container>
           <Nav className="">
             <Nav.Link className="text-white text-xl" href='#'>About Us</Nav.Link>
             <Nav.Link className="text-white text-xl" href='#'>Contact</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <img src={twitter} alt='' />
-            <Nav.Link className="text-white text-xl" href='#'>Twitter</Nav.Link>
-            <img src={facebook} alt='' />
-            <Nav.Link className="text-white text-xl" href='#'>Facebook</Nav.Link>
+            
+            <Nav.Link className="text-white text-xl" href='#'><img src={twitter} alt='' />Twitter</Nav.Link>
+            
+            <Nav.Link className="text-white text-xl" href='#'><img src={facebook} alt='' />Facebook</Nav.Link>
           </Nav>
 
         </Container>

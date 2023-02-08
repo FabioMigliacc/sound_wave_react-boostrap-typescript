@@ -1,17 +1,8 @@
 /* reset styles */
-* {font-family:poppins;
-font-size: 1.2rem;}
+* {font-family: 'Poppins', sans-serif;
+font: size 1.2rem}
 
 body{
   background-color: #2F303A;
 }
-footer{
-  background-color: #202027;
-}
 
-img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  background-color: #2F303A;
-}
