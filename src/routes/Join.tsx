@@ -10,22 +10,23 @@ export const Join = () => {
     <Menu />
     <>
      <Container  className="d-sm-flex align-items-center justify-content" style={{marginTop: '50px', minWidth: '400px',maxWidth:'800px'}}>
-     <h1 className={styles.h1}> Join the <span style={{color: '#bc3a80'}}>fun.</span></h1>
+     <h1 className={styles.h1}> Join the <span className={styles.span}>fun.</span></h1>
      <Form className={styles.form}>
      <Form.Group className="mb-3" controlId="formBasicText">
          <Form.Label>Name:</Form.Label>
-         <Form.Control style={{background: '#202027', border: '1px solid #2F303A' }} type="text"/>
+         <Form.Control className={styles.textinput} type="text"/>
        </Form.Group>
        <Form.Group className="mb-3" controlId="formBasicEmail">
          <Form.Label>Email:</Form.Label>
-         <Form.Control style={{background: '#202027', border: '1px solid #2F303A' }} type="email"/>      </Form.Group>
+         <Form.Control className={styles.textinput} type="email"/>      </Form.Group>
        <Form.Group className="mb-3" controlId="formBasicPassword">
          <Form.Label>Password:</Form.Label>
-        <Form.Control style={{background: '#202027', border: '1px solid #2F303A' }} type="password"/>
+        <Form.Control className={styles.textinput} type="password"/>
        </Form.Group>
        <Button variant="primary" type="submit" style={{width: '100%'}} >Join Now</Button>
    </Form>
-    </Container>     <Footer/>
+   <Footer/>
+    </Container>    
      </>
     </>
 )
